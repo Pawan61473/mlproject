@@ -8,26 +8,28 @@ The dataset includes the following features:
 Gender: Sex of the students
 Values: Male, Female
 
-Race/Ethnicity: The ethnic group to which the student belongs
+Race/Ethnicity: The ethnic group to which the student belongs <br>
 Values: Group A, Group B, Group C, Group D, Group E
 
-Parental Level of Education: The highest level of education completed by the student's parents
+Parental Level of Education: The highest level of education completed by the student's parents <br>
 Values: bachelor's degree, some college, master's degree, associate's degree, high school
 
-Lunch: The type of lunch the student had before taking the test
+Lunch: The type of lunch the student had before taking the test <br>
 Values: standard, free/reduced
 
-Test Preparation Course: Whether the student completed a test preparation course before taking the exam
+Test Preparation Course: Whether the student completed a test preparation course before taking the exam <br>
 Values: completed, not completed
 
-Math Score: The student's score in the math test
-Numeric values
-Reading Score: The student's score in the reading test
+Math Score: The student's score in the math test <br>
 Numeric values
 
-Writing Score: The student's score in the writing test
+Reading Score: The student's score in the reading test <br>
 Numeric values
-Project Goal
+
+Writing Score: The student's score in the writing test <br>
+Numeric values
+
+### Project Goal
 The goal of this project is to build a predictive model that estimates a student's math score based on the other columns (features). By analyzing the impact of factors like gender, race/ethnicity, parental education, lunch, test preparation, and performance in reading and writing, we aim to predict the math scores.
 
 ### Project Workflow
@@ -41,10 +43,10 @@ This project has been deployed using Flask for the backend and hosted on AWS Ela
 
 Clone the repository:
 
-git clone https://github.com/your-repo/student-performance-prediction.git
-Install dependencies:
+git clone https://github.com/your-repo/student-performance-prediction.git <br>
 
-pip install -r requirements.txt
-Run the Flask application locally:
-python app.py
+Install dependencies:
+pip install -r requirements.txt <br>
+Run the Flask application locally: <br>
+python app.py <br>
 Navigate to http://localhost:5000 in your browser and use the interface to predict math scores by inputting other feature values.
