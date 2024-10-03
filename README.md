@@ -5,29 +5,8 @@ This project aims to predict students' math scores based on various factors such
 
 ### Dataset Description
 The dataset includes the following features:
-Gender: Sex of the students
-Values: Male, Female
-
-Race/Ethnicity: The ethnic group to which the student belongs <br>
-Values: Group A, Group B, Group C, Group D, Group E
-
-Parental Level of Education: The highest level of education completed by the student's parents <br>
-Values: bachelor's degree, some college, master's degree, associate's degree, high school
-
-Lunch: The type of lunch the student had before taking the test <br>
-Values: standard, free/reduced
-
-Test Preparation Course: Whether the student completed a test preparation course before taking the exam <br>
-Values: completed, not completed
-
-Math Score: The student's score in the math test <br>
-Numeric values
-
-Reading Score: The student's score in the reading test <br>
-Numeric values
-
-Writing Score: The student's score in the writing test <br>
-Numeric values
+- Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
+- The data consists of 8 column and 1000 rows. <br>
 
 ### Project Goal
 The goal of this project is to build a predictive model that estimates a student's math score based on the other columns (features). By analyzing the impact of factors like gender, race/ethnicity, parental education, lunch, test preparation, and performance in reading and writing, we aim to predict the math scores.
