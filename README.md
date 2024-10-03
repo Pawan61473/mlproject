@@ -20,11 +20,10 @@ The goal of this project is to build a predictive model that estimates a student
 ### Deployment
 This project has been deployed using Flask for the backend and hosted on AWS Elastic Beanstalk.
 
-Clone the repository:
+- Clone the repository:
 
 git clone https://github.com/your-repo/student-performance-prediction.git <br>
-
-Install dependencies:
+Install dependencies:<br>
 pip install -r requirements.txt <br>
 Run the Flask application locally: <br>
 python app.py <br>
