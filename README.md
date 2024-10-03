@@ -12,10 +12,10 @@ The dataset includes the following features:
 The goal of this project is to build a predictive model that estimates a student's math score based on the other columns (features). By analyzing the impact of factors like gender, race/ethnicity, parental education, lunch, test preparation, and performance in reading and writing, we aim to predict the math scores.
 
 ### Project Workflow
-Data Exploration: Understand the structure of the data and the distribution of each feature.
-Data Preprocessing: Handle missing values, encode categorical variables, and scale numeric values where necessary.
-Model Building: Train a machine learning model to predict math scores using features such as gender, parental education, etc.
-Evaluation: Assess the model's performance using metrics like RMSE (Root Mean Squared Error), R² score, etc.
+- Data Exploration: Understand the structure of the data and the distribution of each feature. 
+- Data Preprocessing: Handle missing values, encode categorical variables, and scale numeric values where necessary.
+- Model Building: Train a machine learning model to predict math scores using features such as gender, parental education, etc.
+- Evaluation: Assess the model's performance using metrics like RMSE (Root Mean Squared Error), R² score, etc.
 
 ### Deployment
 This project has been deployed using Flask for the backend and hosted on AWS Elastic Beanstalk.
